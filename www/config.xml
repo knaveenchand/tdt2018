@@ -85,6 +85,12 @@
     <icon src="res/icon/ios/Icon-App-72x72@1x.png"            gap:platform="ios"        width="72" height="72" />
     <icon src="res/icon/ios/Icon-App-57x57@2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="res/icon/ios/Icon-App-72x72@2x.png"         gap:platform="ios"        width="144" height="144" />
+    <icon src="res/icon/ios/Icon-App-72x72@2x.png"         gap:platform="ios"        width="144" height="144" />
+    <icon src="res/icon/ios/Icon-App-72x72@2x.png"         gap:platform="ios"        width="144" height="144" />
+    <icon src="res/icon/ios/Icon-App-60x60@2x.png"         gap:platform="ios" />
+    <icon src="res/icon/ios/Icon-App-76x76@1x.png"         gap:platform="ios" />
+    <icon src="res/icon/ios/Icon-App-76x76@2x.png"         gap:platform="ios" />
+
     <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
     <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
