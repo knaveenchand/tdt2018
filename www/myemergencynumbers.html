@@ -9,7 +9,6 @@
 		<link rel="stylesheet" href="waves.min.css" />
 		<link rel="stylesheet" href="animate.css" />
 		<link rel="stylesheet" href="nativedroid2.css" />
-		<link rel="stylesheet" href="jquerySplashScreen.css" />
 
 		<meta name="mobile-web-app-capable" content="yes">
 	 	<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -17,10 +16,8 @@
 
 	</head>
 	<body>
-        
 
-		<div data-role="page" id="home">
-
+		<div data-role="page">
 
 			<nd2-include data-src="panel.left.html"></nd2-include>
 
@@ -35,32 +32,60 @@
 			<div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
 				<a href="#bottomsheet" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-flash"></i></a>
 				<a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-menu"></i></a>
-				<h1 class="wow fadeIn" data-wow-delay='0.4s'>Tour de Timor</h1>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>Race Organisers</h1>
 			</div>
 
 <!-- Main Content -->
             <div role="main" class="ui-content wow fadeIn" data-inset="false" data-wow-delay="0.2s">
 			    
+			<ul data-role="listview" data-icon="false">
 			    
-                
-                <!-- Simple Card !-->
+				
+			<li>
+     <a href='#'>
+      <img src='phone.jpg' class='ui-thumbnail ui-thumbnail-circular' />
+      <h2>Medical  Emergency</h2>
+      <p>24 hrs</p>
+     </a>
+    </li>
+    <li>
+     <a href='#'>
+      <img src='phone.jpg' class='ui-thumbnail ui-thumbnail-circular' />
+      <h2>Race Director</h2>
+      <p>Mark Barends</p>
+     </a>
+    </li>
+    <li>
+     <a href='#'>
+      <img src='phone.jpg' class='ui-thumbnail ui-thumbnail-circular' />
+      <h2>Dili OPS</h2>
+      <p>8am - 8pm</p>
+     </a>
+    </li>
+     <li>
+     <a href='#'>
+      <img src='phone.jpg' class='ui-thumbnail ui-thumbnail-circular' />
+      <h2>Alieu Base Camp</h2>
+     </a>
+    </li>
+    <li>
+     <a href='#'>
+      <img src='phone.jpg' class='ui-thumbnail ui-thumbnail-circular' />
+      <h2>Timor Lodge Reception</h2>
+      <p>+6703324227</p>
+     </a>
+    </li>
+     <li>
+     <a href='#'>
+      <img src='phone.jpg' class='ui-thumbnail ui-thumbnail-circular' />
+      <h2>Lodge Restaurant</h2>
+      <p>+67077719992</p>
+     </a>
+    </li>
+     
+			</ul>
 
-				<div class="nd2-card">
-
-					<div class="card-supporting-text">
-								
-
-					<div class="card-media">
-						<img class="wow fadeIn" src="homelogo2.jpeg">
-					</div>
-<!--
-					<a href="#bottomsheetblock" class="ui-btn ui-btn-raised clr-primary ui-btn-icon-left"><i class='zmdi zmdi-flash'></i> Quick Access</a>
-					<i class="fas fa-hospital-alt"></i>
-
--->
-					</div>
-
-				</div>
+			<hr />
 
 
 			</div>
@@ -68,8 +93,7 @@
 
 
 		</div>
-       
-        
+
 		<script src="jquery.min.js"></script>
 		<script src="jquery-ui.min.js"></script>
 		<script src="jquery.mobile.min.js"></script>
@@ -77,6 +101,6 @@
 		<script src="wow.min.js"></script>
 		<script src="nativedroid2.js"></script>
 		<script src="nd2settings.js"></script>
-		<script src="jquerySplashScreen.js"></script>
+
 	</body>
 </html>
